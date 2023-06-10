@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+img {
+    border: 0px;
+}
+
+h1,h2,h3,h4,h5,h6,ol,ul,p,address {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+body {
+    overflow-x: hidden;
+}
+html {
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    text-decoration: none !important;
+}
+/*font-family ends*/
+:root {
+    --primary-color: #4073ff;
+    --secondary-color: #ffb031;
+    --text-color: #2e2e2e;
+    --white-color: #ffffff;
+    --red-color: #ff2f44;
+    --blue-color: #0051ff;
+}
+.navbar{
+    background: #f6f6f6;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-nav a{
+    color: var(--text-color);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navbar-nav a.active{
+    color: var(--red-color);
+}
+.modal-body {
+    padding: 0px;
+}
+.error{
+    color: var(--red-color);
+}
+.navbar-light .navbar-brand {
+    margin: 0 auto;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-brand a{
+    color: var(--red-color);
+}
+.title{
+    font-size: 40px;
+    color: var(--primary-color);
+    padding: 40px 0px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.subtitle{
+    font-size: 25px;
+    color: var(--red-color);
+    padding: 20px 0px;
+    font-weight: bold;
+}
+.addBtn {
+    float: right;
+    margin-bottom: 20px;
+}
+.btnGap{
+    margin-right: 10px;
+}
+.table tbody tr td img {
+    height: 50px;
+}
+form {
+    background: #f7f7f7;
+    padding: 30px;
+    border: 1px solid #00a3ff;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.deleteDisplay {
+    text-align: center;
+    min-height: 130px;
+}
+
+.imgPreview {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.imgPreview img{
+    max-width: 60px;
+    max-height: 60px;
+}
+
+
+.small{
+    background: rgb(140, 255, 87);
+    padding: 30px;
+    font-size: 25px;
+}
+
+.large{
+    background: rgb(255, 140, 87);
+    padding: 30px;
+    font-size: 25px;
+}
